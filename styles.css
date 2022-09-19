@@ -42,6 +42,9 @@ body{
     width: 100%;
     padding: 15px;   
 }
+.home {
+    height: 90vh;
+}
 .upper {
     margin-top: 15px;
     display: flex;
@@ -83,7 +86,25 @@ body{
     color: orangered;
 }
 footer {
-    background-color: blueviolet;
-    height: 30px;
+    background-color: rgb(89, 56, 119);
     width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+}
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover {
+   color: aquamarine;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+footer li {
+    margin: 0 16px;
 }
